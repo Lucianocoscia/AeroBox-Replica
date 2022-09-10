@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-1{
+    background-color: #BE63A6;
+    height: 3vh;
+    text-align: center;
+}
+.tamaño-a{
+    height: 45px;
+    width: 200px;
+}
+.subheader{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    text-align: center;
+    color: #000;
+    background-color: #FFFFFF;
+    height: 9vh;
+}
+.navbar1{
+    display: flex;
+    align-items: center;
+}
+.navbar1-ul{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    list-style-type: none;
+}
+ul{
+    margin: 0;
+}
+.navbar1-ul li {
+    margin-right: 1rem;
+
+}
+.navbar1-ul li a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+.background-color{
+    background-color: #F6F6F6;
+    /* padding-bottom: 4rem; */
+    height: 90vh;
+    /* padding-top: 3rem; */
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
+    margin-right: 17%;
+    background-color: #FFFFFF;
+}
+.division{
+    height: 5vh;
+    background:linear-gradient(to right,#92A2C7,#D2CCD9 ) ;
+}
+.presentacion-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}    
+.servicio{
+    margin: 1rem;
+}
+.grid-section2{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2rem;
+}
+.grid_img{
+    display: flex;
+    justify-content: center;
+}
+.grid_img-1{
+    margin: 3rem;
+    
+}
+.grid_texto{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.grid_cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-rows: 1fr;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    column-gap: 1rem;
+}
+.cards{
+    height: 380px;
+    width: 280px;
+    background: linear-gradient(90deg, #ADBAD5, #DBE2EC);
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.background-color1{
+    margin-top: 2rem;
+    background-color:#BABDDC ;
+    height: 50vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.categorias_flex{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.cards-categorias{
+    height: 260px;
+    width: 260px;;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.contenedor-categorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-categorias2{
+    height: 400px;
+    width: 210px;;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    border: 1px solid #D1D2D2 ;
+}
+.cards-categorias-img{
+    height: 210px;
+    width: 210px;
+    border:  2px solid #ffff;
+    border-radius: 8px;
+}
+.categorias_h4{
+    color: #ffff;
+    font-size: 2rem;
+    
+}
+.img_presentacion{
+    height: 100%;
+    width: 100%;
+}
+.cards-categorias-h6{
+    margin-top: 2rem;
+    color: #ffff;
+    font-weight: 600;
+}
+.fondo-compras{
+    height: 47vh;
+    background: url(https://aerobox.com.ar/wp-content/uploads/2022/08/bg-importar.jpg) no-repeat left top/cover ;
+}
+.background-color2{
+    background-color: #F1EDEF;
+    height: 75vh;
+}
+.fondo-recomendado{
+    background-color:#FFFFFF ;
+    height: 40vh;
+}
+.fondo-garantia{
+    background-color:#BBBEDD ;
+    height: 40vh;
+}
