@@ -70,7 +70,25 @@ ul{
 
 }    
 .servicio{
-    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.servicio-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem;
+}
+.servicio-texto span{
+    font-size: 12px;
+}
+.servicio-texto a{
+    margin-top: 0;
+    color: #59a3d7;
+    text-decoration: none;
+    font-size: 12px;
 }
 .grid-section2{
     height: 70vh;
@@ -148,17 +166,19 @@ ul{
     align-items: center;
 }
 .cards-categorias2{
-    height: 400px;
-    width: 210px;;
-    margin-right: 2rem;
+    margin-right: 3rem;
     margin-top: 2rem;
-    border: 1px solid #D1D2D2 ;
+
+    border: 0.5px solid #D1D2D2 ;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .cards-categorias-img{
     height: 210px;
     width: 210px;
-    border:  2px solid #ffff;
-    border-radius: 8px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 .categorias_h4{
     color: #ffff;
@@ -174,19 +194,142 @@ ul{
     color: #ffff;
     font-weight: 600;
 }
-.fondo-compras{
-    height: 47vh;
-    background: url(https://aerobox.com.ar/wp-content/uploads/2022/08/bg-importar.jpg) no-repeat left top/cover ;
-}
+
 .background-color2{
     background-color: #F1EDEF;
     height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.background-color2 p{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.contendor-ps{
+    margin-left: 16%;
+}
+.contendor-texto{
+    margin-top: 1.5rem;
+    padding: 0 20px ;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: left   ;
+}
+.contendor-texto h6{
+    font-weight:bold ;
+}
+.button-contenedor{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-contenedor button {
+    background-color: #39609B;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #ffff;
+    width: 128px;
+    font-size: 14px;
+    padding: 6px;
+    border: none;
+}
+
 .fondo-recomendado{
     background-color:#FFFFFF ;
-    height: 40vh;
+    height: 49vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fondo-recomendado h5{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.fondo-recomendado button{
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #ffff;
+    background-color: #39609B;
+    padding: 7px;
+    border-radius: 10px;
+    width: 350px;
+    border: none;
+}
+.contenedor-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    padding: 1rem;
 }
 .fondo-garantia{
     background-color:#BBBEDD ;
-    height: 40vh;
+    height: 47vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-garantia{
+    margin-left: 10rem;
+}
+.texto-garantia h4{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.fondo-compras{
+    height: 50vh;
+    background: url(https://aerobox.com.ar/wp-content/uploads/2022/08/bg-importar.jpg) no-repeat left top/cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    color: #ffff;
+}
+.fondo-compras h5{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+.fondo-compras h4{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.fondo-compras span{
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.button-compras{
+    padding: 0.5rem;
+}
+.button-compras button{
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 7px;
+    border: none;
+    margin-right: 1rem;
+    width: 265px;
+}
+.button-compras .button1{
+    border-radius: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 7px;
+    border: none;
+    margin-right: 1rem;
+    width: 265px;
+    background-color: transparent;
+    color: #fff;
 }
